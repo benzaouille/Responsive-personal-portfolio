@@ -9,9 +9,22 @@ header {
   min-height: 60vh;
 }
 
+.singleCol {
+    max-width: 750px;
+}
 
+.logo {
+  filter: brightness(0) saturate(100%) invert(99%) sepia(0%) saturate(7448%) hue-rotate(179deg) brightness(96%) contrast(94%);
+}
+
+.logo:hover {
+  filter: brightness(0) saturate(100%) invert(68%) sepia(8%) saturate(11%) hue-rotate(317deg) brightness(86%) contrast(98%);
+}
+footer {
+  background-color: #3a3a3a;
+  color: white;
+}
 @media (max-width : 767.98px) {
-
     .color-overlay {
       min-height: 30vh
     }
