@@ -20,10 +20,22 @@ header {
 .logo:hover {
   filter: brightness(0) saturate(100%) invert(68%) sepia(8%) saturate(11%) hue-rotate(317deg) brightness(86%) contrast(98%);
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+}
+
 footer {
   background-color: #3a3a3a;
   color: white;
 }
+
 @media (max-width : 767.98px) {
     .color-overlay {
       min-height: 30vh
